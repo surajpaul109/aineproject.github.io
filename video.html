@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/f70a5c9118.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        background-color: whitesmoke;
+      }
+      a {
+        text-decoration: none;
+        font-size: 20px;
+        color: gray;
+      }
+      .inp {
+        margin-top: 100px;
+        text-align: center;
+      }
+      #inpbox {
+        width: 60%;
+        padding: 10px;
+        left: 20%;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        margin: 50px;
+      }
+      #file {
+        width: 200px;
+        height: 200px;
+        border: none;
+        outline: none;
+        margin-left: -40%;
+      }
+      #file::placeholder {
+        text-align: center;
+        color: black;
+        font-size: large;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div>
+        <a href="#"><i class="fas fa-caret-left"></i> Videos</a>
+      </div>
+      <div class="inp">
+        <input type="text" placeholder="Insert URLs here" name="" id="inpbox" />
+        <br />
+        <span class="or"><strong>or</strong></span>
+        <br />
+        <input type="text" name="" id="file" placeholder="upload" />
+      </div>
+    </div>
+  </body>
+</html>

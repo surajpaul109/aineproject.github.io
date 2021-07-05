@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <script
+      src="https://kit.fontawesome.com/f70a5c9118.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      /*  */
+      * {
+        margin: 0;
+      }
+      i {
+        /* background-color: white; */
+        padding: 15px 20px;
+        box-shadow: 2px 0px 2px gray;
+      }
+      .nav {
+        display: inline-block;
+        text-align: center;
+      }
+      header {
+        background-color: white;
+        padding: 15px 0px 3px;
+        box-shadow: 0px 2px 5px gray;
+      }
+      ul {
+        list-style-type: none;
+        height: 100vh;
+        box-shadow: 2px 0px 2px gray;
+      }
+      li {
+        padding: 24px;
+        margin-left: -15px;
+        width: 35px;
+        text-align: center;
+      }
+      li span {
+        padding: 15px 35px 15px 35px;
+        margin-left: -55px;
+        width: 100%;
+      }
+      span:hover {
+        background-color: lightskyblue;
+      }
+      a {
+        text-decoration: none;
+        color: gray;
+      }
+      iframe {
+        display: inline-block;
+        position: absolute;
+        width: 93%;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <i class="fab fa-4x fa-edge"></i>
+      </div>
+    </header>
+    <div class="main">
+      <div class="nav">
+        <ul>
+          <a href="">
+            <li><span class="fa fa-user fa-3x"></span> Students</li>
+          </a>
+          <a href="video.html" target="content">
+            <li><span class="fa fa-book fa-3x"></span> Lesson Plan</li>
+          </a>
+          <a href="">
+            <li><span class="fa fa-cog fa-3x"></span> Settings</li>
+          </a>
+        </ul>
+      </div>
+      <iframe id="content" name="content" frameborder="0"> </iframe>
+    </div>
+  </body>
+</html>
